@@ -7,11 +7,11 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    background: #EEEBD0;
+    background: #d9d0ee;
 }
 
 .contenedor{
-    background: #EE2677;
+    background: #11b442;
     max-width: 1000px;
     margin:20px auto;
     overflow: hidden;
@@ -20,7 +20,7 @@ body{
 
 header{
 
-    background: #EBB3A9;
+    background: #b16969;
     width: 100%;
 }
 
@@ -31,17 +31,17 @@ header{
     display: inline-block;
     padding:20px;
     width: 200px;
-    color:black;
+    color:#000;
     font-size:1.2em;
     text-align: center;
  }
 header nav a:hover{
 
-    background: #E87EA1;
+    background: #11b442;
 }
 
 main{
-    background: #E87EA1;
+    background: #ffffff;
     width: 75%;
     float: left;
 
@@ -54,7 +54,7 @@ main{
 
 article h2{
 
-color:#B52717;
+color:#da0f0f;
 font-size: 2em;
 margin-top: 10px;
 margin-bottom: 20px;
@@ -70,7 +70,7 @@ article p{
 
 aside{
 
-    background:#EE2677;
+    background:#11b442;
     width: 25%;
     float: left;
     line-height: 25px;
@@ -101,11 +101,11 @@ aside{
 
 .enlaces li a:hover{
 
-    background: #E87EA1;
+    background: #b16969;
 }
 
 footer{
-    background: #EBB3A9;
+    background: #b16969;
     width: 100%;
     float: left;
     font-size: 1.3em;
@@ -117,7 +117,7 @@ footer{
 {
     body{
         font-size:14px;
-        background:#000;
+        background:rgb(184, 16, 16);
     }
 
     main{
@@ -133,7 +133,7 @@ footer{
 
     body{
         font-size:12px ;
-        background: #EEEBD0;
+        background: #0f9241;
         
     }
 
