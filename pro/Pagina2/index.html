@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=MuseoModerno:wght@100&family=Rajdhani&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Servidor DNS</title>
+  </head>
+  <body>
+    
+    <header class="Header">
+        <div class="bg-dark bg-dark1" id="mecSoc">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav d-flex justify-content-center w-100">
+                        <a class="nav-item nav-link" href="#">Inicio</a>
+                        <a class="nav-item nav-link" href="#">Introducción</a>
+                        <a class="nav-item nav-link" href="#">Contenido</a>
+                        <a class="nav-item nav-link" href="#">Contactanos</a>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+
+        <div class="Text-hero">
+            <div class="container">
+                <h3>Cómo funcionan los DNS</h3>
+                <h5>Cada dominio o subdominio dispone de uno o más servidores de DNS autorizados que publican información sobre dicho dominio y los servidores de nombre de cualquier dominio “debajo” de él.</h5>
+                <h5>Por ejemplo para el dominio wpseguro.com los DNS asignados serían:</h5>
+                <img src="img/UNO.jpg" alt="">
+                <h5>La jerarquía de los servidores DNS coincide con la jerarquía de los dominios.</h5>
+                <h5>En la parte superior de la jerarquía se encuentran los servidores de nombre raíz, que son los servidores a consultar cuando se busca (se resuelve) un nombre de dominio de nivel superior (TLD).</h5>
+                <h5>Explicado de forma más gráfica sería más o menos así:</h5>
+                <img src="img/DOS.jpg" alt="">
+                <h5>Si un servidor de DNS primarios falla lo normal es que exista un DNS secundario que opera de forma independiente y normalmente en otra red diferente de la del DNS primario para garantizar redundancia del servicio.</h5>
+                <h5>Es por ello que ante un fallo del servidor de DNS primario entre en acción el servidor de DNS secundario y responda a todas las peticiones de sitios web.</h5>
+                <h5>Y como en todo plan de contingencia que se precie, muchos proveedores de Hosting (como es el caso de Webempresa) además disponen de un servicio de DNS failover (conmutación por error de DNS) que se pone en marcha al detectar que un servidor no está respondiendo propagando nuevos registros DNS a todo el sistema.</h5>
+            </div>
+        </div>
+    </header>
+
+    <footer class="Foot">
+        <h4 class="text-center">Copyright © 2022 UPDS Todos los derechos reservados.</h4>
+    </footer>
+     
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/Jscrip.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+body{
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.Header{
+    width: 100%;
+    height: 500vh;
+    background-image: linear-gradient(180deg, #434e52, #009cfd41 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-dark{
+    background-color: #393e46 !important;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.bg-dark1{
+    background-color:#393e46 ;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 2px solid #fdbb2d;
+}
+
+@media (min-width: 768px){
+    .bg-dark{
+        background-color: transparent !important;
+    }
+}
+
+.navbar a{
+    color: #fff !important;
+    font-family:'MuseoModerno';
+    text-align: center;
+    font-size: 23px;
+    padding: 4px 15px;
+}
+
+.navbar a:hover{
+    background: linear-gradient(160deg, #022502f6 0%, #07990ff1 100%);
+    border-radius: 5%;
+}
+
+.Text-hero{
+    height: 550px;
+    color: rgb(255, 250, 250);
+    font-family: 'Rajdhani';
+    padding-top: 190px;
+    text-align: center;
+}
+
+.Text-hero h3{
+    font-size: 100px;
+    letter-spacing: .2em;
+    /* font-weight: bold; */
+    display: flex;
+    
+
+    
+}
+.Text-hero h5{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 500;
+}
+
+@media (max-width: 500px){
+    .Text-hero h3,h5{
+        font-size: 47px;
+    }
+}
+
+.Text-hero a{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 23px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: linear-gradient(160deg, #022502f6 0%, #07990ff1 100%);
+}
+
+.Text-hero a:hover{
+    background: linear-gradient(160deg, #022502f6 0%, #07990ff1 100%);
+}
+
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Fin del Header  */
+
+.Foot{
+    background: linear-gradient(160deg, #022502f6 0%, #07990ff1 100%);
+}
+
+.Foot h4{
+    font-family: 'MuseoModerno';
+    padding: 10px;
+    font-size: 27px;
+    font-weight: 900;
+    margin: 0;
+    overflow: hidden;
+}

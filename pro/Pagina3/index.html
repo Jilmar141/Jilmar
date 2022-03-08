@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=MuseoModerno:wght@100&family=Rajdhani&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Servidor DNS</title>
+  </head>
+  <body>
+    
+    <header class="Header">
+        <div class="bg-dark bg-dark1" id="mecSoc">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav d-flex justify-content-center w-100">
+                        <a class="nav-item nav-link" href="#">Inicio</a>
+                        <a class="nav-item nav-link" href="#">Introducción</a>
+                        <a class="nav-item nav-link" href="#">Contenido</a>
+                        <a class="nav-item nav-link" href="#">Contactanos</a>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+
+        <div class="Text-hero">
+            <div class="container">
+                <h3>Verifica a qué DNS apunta tu dominio</h3>
+                <h5>Son muchos los servicios existentes en Internet para extraer información de un dominio, conocer los datos del registrante y del registrador así como los DNS a los que apunta dicho dominio y todo esto se obtiene por medio de un Whois.</h5>
+                <h5>Whois es un protocolo TCP basado en petición/respuesta usado para consultar en una base de datos sobre el dominio, estado del mismo y otras informaciones más sensibles (teléfono, dirección) a menos que estas hayan sido ocultadas mediante servicios como OwO (OvhWhoisObfuscateur de OVH).</h5>
+                <h5>Hay varias formas de averiguarlo:</h5>
+                <img src="img/UNO.jpg" alt="">
+                <h5>Por supuesto hay muchas más formas de comprobarlo pero no voy a enumerarlas en este artículo, con las citadas es suficiente para obtener esta información.</h5>
+                <h5>A partir de aquí, y sabiendo a donde apuntan los DNS de tu dominio, si estos no apuntan correctamente lo siguiente es saber cómo modificarlos.</h5>
+                <h5>Si es posible que un dominio no apunte todos los registros de DNS al mismo servidor, pudiendo separar estos registros por servicios (email, web, etc.) enviando dicho tráfico en ambos sentidos hacia otro servidor diferente.</h5>
+                <h5>Los registros que componen un DNS son:</h5>
+                <img src="img/DOS.jpg" alt="">
+                <h5>Por ejemplo, los servidores de nombres (NS) son servidores DNS que contienen la información acerca de los dominios.</h5>
+                <h5>Es posible tener una web alojada en un servidor diferente del mismo proveedor de Hosting o de otro externo, simplemente apuntando el Registro A que responde a la web y mantener el correo apuntando en Registro MX en un servidor diferente.</h5>
+            </div>
+        </div>
+    </header>
+
+    <footer class="Foot">
+        <h4 class="text-center">Copyright © 2022 UPDS Todos los derechos reservados.</h4>
+    </footer>
+     
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/Jscrip.js"></script>
+  </body>
+</html>
